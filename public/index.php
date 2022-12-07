@@ -1,15 +1,16 @@
 <?php
 
-include "./private/shared/voorbeeldinclude.php";
-echo "Included";
+include  "../private/init.php";
 
-include "./private/shared/voorbeeldrequired.php";
-echo "Required";
 
-include "./private/shared/header.php";
-echo "Header";
 
-include "./private/shared/footer.php";
-echo "Footer";
+include SHARED_PATH . "/header.php";
 
-?> 
+
+include  "startpagina.php";
+
+include SHARED_PATH . "/footer.php";
+
+
+
+?>  

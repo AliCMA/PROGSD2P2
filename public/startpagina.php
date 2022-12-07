@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Startpagina</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href= <?php echo url_path("/css/style.css") ?>>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sono:wght@600&display=swap" rel="stylesheet"> 
@@ -13,11 +13,7 @@
 </head>
 <body>
 
-<header>
-  <b>
-<?php include "../private/shared/header.php";?>
-</b>
-</header>
+
 
 
 <section>
@@ -34,7 +30,7 @@
 
 <footer class="footer">
   <b>
-<?php include "../private/shared/footer.php";?>
+  <?php include "../private/shared/footer.php";?>
 </b>
 </footer>
 
