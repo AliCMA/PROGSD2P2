@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 25px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.startpagina{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;  
+    
+    font-family: 'Sono', sans-serif;    
+}
+
+.footer{
+    position:fixed;
+    display: flex;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: red;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 25px;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
